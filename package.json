@@ -1,7 +1,7 @@
 {
   "name": "macvendor",
   "description": "Determine the vendor of a MAC address",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/pspeter3/node-macvendor",
   "author": {
     "name": "Phips Peter",
@@ -32,5 +32,11 @@
     "grunt": "~0.3.16",
     "vows": "~0.7.0"
   },
-  "keywords": ["mac", "vendor"]
+  "keywords": [
+    "mac",
+    "vendor"
+  ],
+  "dependencies": {
+    "request": "~2.12.0"
+  }
 }
