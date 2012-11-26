@@ -1,0 +1,36 @@
+{
+  "name": "macvendor",
+  "description": "Determine the vendor of a MAC address",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pspeter3/node-macvendor",
+  "author": {
+    "name": "Phips Peter",
+    "email": "pspeter333@gmail.com",
+    "url": "http://pspeter3.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pspeter3/node-macvendor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pspeter3/node-macvendor/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pspeter3/node-macvendor/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/macvendor",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/vows test/*_test.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.16",
+    "vows": "~0.7.0"
+  },
+  "keywords": ["mac", "vendor"]
+}

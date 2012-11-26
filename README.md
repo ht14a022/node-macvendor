@@ -23,9 +23,14 @@ var macvendor = require('macvendor');
 
 macvendor('01:23:45:67:89:ab', function(err, vendor) {
   if (!err) {
-    console.log(vendor);
+  console.log(vendor);
   }
 });
 ```
 
-Err is passed along if request has an error
+Err is passed along if request has an error and vendor is undefined if the service has no idea what the vendor is.
+
+License
+-------
+Copyright (c) 2012 Phips Peter
+Licensed under the MIT license.
