@@ -23,7 +23,7 @@ var macvendor = require('macvendor');
 
 macvendor('01:23:45:67:89:ab', function(err, vendor) {
   if (!err) {
-  console.log(vendor);
+    console.log(vendor);
   }
 });
 ```
